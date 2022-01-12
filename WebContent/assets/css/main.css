@@ -2684,7 +2684,7 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
+			padding: 0 4em 0.1em 4em ;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
@@ -2786,11 +2786,11 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 20em 0 ;
+		padding: 6em 0 6em 0 ;
 	}
 
 		.wrapper > .inner {
-			width: 60em;
+			width: 40em;
 			margin: 0 auto;
 		}
 
@@ -2806,6 +2806,13 @@ input, select, textarea {
 
 				.wrapper > .inner {
 					width: 100%;
+				}
+
+			}
+			@media screen and (max-width: 736px) {
+
+				.wrapper > .inner {
+					width: 60%;
 				}
 
 			}
@@ -2979,8 +2986,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
-			color: #d3d4e4;
+			background-color: #fff;
+			color: #000;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -2988,7 +2995,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #ffffff;
+				color: #000;
 			}
 
 			.wrapper.style3 hr {
@@ -4001,22 +4008,95 @@ input, select, textarea {
 /* Customizing */
 
 .info_block {
-
+	margin: 50px 0;
+	display: flex;
+	align-items: center;
 }
 
 .info_block .fas {
-	font-size: 30px;
+	font-size: 40px;
+	width: 80px;
 	color: #000000;
 }
 
 .info_block .info_title {
-	font-size: 30px;
+	font-size: 40px;
 	color: #000000;
 	font-weight: 600;
 }
 
-.info_block span {
-	font-size: 20px;
-	font-weight: 600;
+.info_block .info_content {
+	font-size: 30px;
 	color: #4E4852;
+	margin-left: auto;
 }
+
+#scroll_two {
+	position: relative;
+	top: 30px;
+}
+.fa-arrow-down {
+	font-size: 30px;
+}
+
+.fa-arrow-down:hover{
+	color: rgb(163, 79, 23);
+	transition: 1s;
+}
+
+.scroll_three_block {
+	height: auto;
+	background-color: 2e3842;
+}
+
+.nothing {
+	height: 50px;
+}
+#scroll_three {
+	position: relative;
+	left: 50%;
+	color: #FFF;
+}
+	@media screen and (max-width: 736px) {
+
+		.info_block {
+			display: block;
+			margin: 30px;
+		}
+		
+		.info_block .fas {
+			font-size: 30px;
+			color: #000000;
+			display: inline;
+			margin: 0 0px 30px 20px;
+		}
+		
+		.info_block .info_title {
+			font-size: 20px;
+			color: #000000;
+			display: inline-block;
+			margin-left: 20px;
+		}
+		
+		.info_block .info_content {
+			font-size: 20px;
+			display: flex;
+			justify-content: center;
+			margin-top: 15px;
+			color: #4E4852;
+		}
+
+		#scroll_two {
+			position: relative;
+			top: -15px;
+		}
+		.fa-arrow-down {
+			font-size: 30px;
+		}
+		
+		.fa-arrow-down:hover{
+			color: rgb(163, 79, 23);
+			transition: 1s;
+		}
+
+	}
