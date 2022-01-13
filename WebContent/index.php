@@ -261,8 +261,8 @@
 				<div class="inner">
 					<header>
 						<h2>thanks</h2>
-						<p>아래 링크를 통해서</p>
-						<p>블로그, Github 등 한번씩 방문해주세요 :)</p>
+						<p>앞으로도 기대해주세요.</p>
+						<p>블로그, Github도 한번씩 방문해주세요 :)</p>
 					</header>
 					<ul class="actions stacked">
 						<li class="nothing"></li>
