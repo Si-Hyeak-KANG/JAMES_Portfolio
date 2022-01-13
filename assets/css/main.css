@@ -4229,8 +4229,6 @@ input, select, textarea {
 		.info_block .fas {
 			font-size: 30px;
 			color: #000000;
-			display: inline;
-			margin: 0 0px 30px 20px;
 		}
 		
 		.info_block .info_title {
@@ -4246,6 +4244,10 @@ input, select, textarea {
 			justify-content: center;
 			margin-top: 15px;
 			color: #4E4852;
+		}
+
+		#name1 {
+			padding-right: 15px;
 		}
 
 		#scroll_two {
