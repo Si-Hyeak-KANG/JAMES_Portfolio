@@ -4134,7 +4134,7 @@ input, select, textarea {
 	height: 100%;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
-	background-image: url("/WebContent/images/id_doubleCheck.png");
+	background-image: url("/images/id_doubleCheck.png");
 	background-size: 90%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -4145,7 +4145,7 @@ input, select, textarea {
 	height: 100%;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
-	background-image: url("/WebContent/images/그림1.jpg");
+	background-image: url("/images/그림1.jpg");
 	background-size: 75%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -4156,7 +4156,7 @@ input, select, textarea {
 	height: 100%;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
-	background-image: url("/WebContent/images/boardWeb1.png");
+	background-image: url("/images/boardWeb1.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -4167,7 +4167,7 @@ input, select, textarea {
 	height: 100%;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
-	background-image: url("/WebContent/images/waiting.png");
+	background-image: url("/images/waiting.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -4342,7 +4342,7 @@ input, select, textarea {
 			height: 40%;
 			border-right: 1px solid rgba(0, 0, 0, 0.2);
 			background-color: #FFF;
-			background-image: url("/WebContent/images/id_doubleCheck.png");
+			background-image: url("/images/id_doubleCheck.png");
 			background-size: 90%;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -4353,7 +4353,7 @@ input, select, textarea {
 			height: 40%;
 			border-right: 1px solid rgba(0, 0, 0, 0.2);
 			background-color: #FFF;
-			background-image: url("/WebContent/images/그림1.jpg");
+			background-image: url("/images/그림1.jpg");
 			background-size: 75%;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -4364,7 +4364,7 @@ input, select, textarea {
 			height: 40%;
 			border-right: 1px solid rgba(0, 0, 0, 0.2);
 			background-color: #FFF;
-			background-image: url("/WebContent/images/boardWeb1.png");
+			background-image: url("/images/boardWeb1.png");
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -4375,7 +4375,7 @@ input, select, textarea {
 			height: 40%;
 			border-right: 1px solid rgba(0, 0, 0, 0.2);
 			background-color: #FFF;
-			background-image: url("/WebContent/images/waiting.png");
+			background-image: url("/images/waiting.png");
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
