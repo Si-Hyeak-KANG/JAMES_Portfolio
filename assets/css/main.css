@@ -2777,7 +2777,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlight .content {
-				padding: 3em 2em 1em 2em ;
+				padding: 3em 1em 1em 1em ;
 			}
 
 		}
@@ -4331,13 +4331,13 @@ input, select, textarea {
 			background-color: rgb(236, 236, 236);
 		}
 
-		#three .inner .pro_content .pro_box:hover {
+		/* #three .inner .pro_content .pro_box:hover {
 			border: #4E4852 3px solid;
 			transition: 0.2s;
 		}
 		#three .inner .pro_content .pro_box:active {
 			box-shadow:0 2px 5px rgba(0, 0, 0, 0.8) inset;
-		}
+		} */
 
 		.pro_img.img1 {
 			width: 100%;
