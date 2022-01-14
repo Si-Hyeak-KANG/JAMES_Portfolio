@@ -1,12 +1,12 @@
 # JAMES's Portfolio
 
----
+___
 
 안녕하세요. 백엔드 개발자 강시혁입니다.
 
 아래는 저의 포트폴리오 링크입니다.
 
-# [James's Portfolio](https://dev-james.netlify.app/)
+[James's_Portfolio](https://dev-james.netlify.app/)
 
 
 추후 '리뷰 남기기' 기능을 추가한 버전을 업데이트할 예정입니다.
