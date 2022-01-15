@@ -4122,7 +4122,7 @@ input, select, textarea {
 }
 
 #three .inner .pro_content .pro_box:hover {
-	border: #4E4852 3px solid;
+	border: #4E4852 1px solid;
 	transition: 0.2s;
 }
 #three .inner .pro_content .pro_box:active {
@@ -4330,15 +4330,6 @@ input, select, textarea {
 			flex-wrap: wrap;
 			background-color: rgb(236, 236, 236);
 		}
-
-		/* #three .inner .pro_content .pro_box:hover {
-			border: #4E4852 3px solid;
-			transition: 0.2s;
-		}
-		#three .inner .pro_content .pro_box:active {
-			box-shadow:0 2px 5px rgba(0, 0, 0, 0.8) inset;
-		} */
-
 		.pro_img.img1 {
 			width: 100%;
 			height: 40%;
