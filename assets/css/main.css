@@ -4030,6 +4030,14 @@ input, select, textarea {
 	margin-left: auto;
 }
 
+	@media screen and (max-width: 980px) {
+		.info_block .info_content {
+			font-size: 20px;
+			color: #4E4852;
+			margin-left: auto;
+		}
+	}
+
 #scroll_two {
 	position: relative;
 	top: 30px;
@@ -4112,7 +4120,7 @@ input, select, textarea {
 }
 
 #three .inner .pro_content .pro_box {
-	height: 550px;
+	height: fit-content;
 	margin-bottom: 30px;
 	box-shadow:0 3px 10px rgba(0, 0, 0, 0.8);
 	cursor: pointer;
@@ -4121,17 +4129,27 @@ input, select, textarea {
 	background-color: rgb(236, 236, 236);
 }
 
-#three .inner .pro_content .pro_box:hover {
-	border: #4E4852 1px solid;
-	transition: 0.2s;
-}
+/*#three .inner .pro_content .pro_box:hover {*/
+/*	border: #4E4852 1px solid;*/
+/*	transition: 0.2s;*/
+/*}*/
 #three .inner .pro_content .pro_box:active {
 	box-shadow:0 2px 5px rgba(0, 0, 0, 0.8) inset;
 }
 
+.pro_img.imgA {
+	width: 50%;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: #FFF;
+	background-image: url("/images/heritageHome.png");
+	background-size: 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+}
+
 .pro_img.img1 {
 	width: 50%;
-	height: 100%;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
 	background-image: url("/images/id_doubleCheck.png");
@@ -4142,7 +4160,6 @@ input, select, textarea {
 }
 .pro_img.img2 {
 	width: 50%;
-	height: 100%;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
 	background-image: url("/images/그림1.jpg");
@@ -4153,7 +4170,6 @@ input, select, textarea {
 }
 .pro_img.img3 {
 	width: 50%;
-	height: 100%;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
 	background-image: url("/images/boardWeb1.png");
@@ -4164,7 +4180,6 @@ input, select, textarea {
 }
 .pro_img.img4 {
 	width: 50%;
-	height: 100%;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
 	background-image: url("/images/waiting.png");
@@ -4193,32 +4208,71 @@ input, select, textarea {
 
 .box_profile2 {
 	margin-bottom: 10px;
+
 }
 .box_profile img {
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
 }
+/*
 
 .box_profile img:hover{
 	position: relative;
 	top: -10px;
 }
+*/
 .box_profile2 img {
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
 }
+/*
 
 .box_profile2 img:hover {
 	position: relative;
 	top: -10px;
 }
+*/
 
 .font_p {
 	font-size: larger;
 }
+	@media screen and (max-width: 980px) {
 
+		.content_profile {
+			width: 100%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		.box_profile {
+			margin-bottom: 10px;
+		}
+
+		.box_profile2 {
+			margin-bottom: 10px;
+
+		}
+		.box_profile img {
+			width: 220px;
+			height: 220px;
+			border-radius: 50%;
+		}
+
+		.box_profile2 img {
+			width: 220px;
+			height: 220px;
+			border-radius: 50%;
+		}
+
+		.font_p {
+			font-size: larger;
+		}
+
+	}
 	@media screen and (max-width: 736px) {
 
 		.info_block {
@@ -4321,7 +4375,7 @@ input, select, textarea {
 		}
 
 		#three .inner .pro_content .pro_box {
-			height: 600px;
+			height: 820px;
 			margin-bottom: 30px;
 			box-shadow:0 3px 10px rgba(0, 0, 0, 0.8);
 			cursor: pointer;
@@ -4330,6 +4384,19 @@ input, select, textarea {
 			flex-wrap: wrap;
 			background-color: rgb(236, 236, 236);
 		}
+
+		.pro_img.imgA {
+			width: 100%;
+			height: 30%;
+			border-right: 1px solid rgba(0, 0, 0, 0.2);
+			background-color: #FFF;
+			background-image: url("/images/heritageHome.png");
+			background-size: 90%;
+			background-position: center;
+			background-repeat: no-repeat;
+			border-radius: 20px;
+		}
+
 		.pro_img.img1 {
 			width: 100%;
 			height: 40%;
