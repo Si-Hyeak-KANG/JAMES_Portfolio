@@ -177,6 +177,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		line-height: 1.75em;
+		text-align: center;
 	}
 
 		@media screen and (max-width: 736px) {
