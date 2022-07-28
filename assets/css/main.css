@@ -165,7 +165,7 @@ input, select, textarea {
 		font-weight: 800;
 		letter-spacing: 0.2em;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 	}
 
@@ -2700,15 +2700,15 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(46, 56, 66, 0.65);
+			background-color: rgba(46, 56, 66, 0.68);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(46, 56, 66, 0.75);
+			background-color: rgba(46, 56, 66, 0.8);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(46, 56, 66, 0.8);
+			background-color: rgba(46, 56, 66, 0.9);
 		}
 
 		.spotlight:nth-child(4) {
@@ -2785,7 +2785,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 8em 0 12em 0 ;
+		padding: 5em 0 16em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3322,6 +3322,9 @@ input, select, textarea {
 
 		}
 
+	.wrapper.style6 {
+		background-color: #2e3842;
+	}
 /* Page Wrapper + Menu */
 
 	#page-wrapper {
@@ -4195,7 +4198,6 @@ input, select, textarea {
 }
 
 .content_profile {
-	width: 80%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -4435,7 +4437,7 @@ input, select, textarea {
 			height: 40%;
 			border-right: 1px solid rgba(0, 0, 0, 0.2);
 			background-color: #FFF;
-			background-image: url("/images/waiting.png");
+			background-image: url("/images/image_project_book.jpg");
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -4477,3 +4479,26 @@ input, select, textarea {
 		}
 
 	}
+.card {
+	position: relative;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+	cursor: pointer;
+}
+
+.front, .back {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backface-visibility: hidden;
+}
+
+.front {
+	border: 2px solid black;
+}
+
+.back {
+	border: 2px solid black;
+	transform: rotateY(180deg);
+}
