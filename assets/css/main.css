@@ -2674,7 +2674,7 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 50%;
 		}
 
 			.spotlight .image img {
@@ -2683,13 +2683,12 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			padding: 0 4em 0.1em 4em ;
+			padding: 2em;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
 			max-width: 48em;
-			width: 60%;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2700,15 +2699,15 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(46, 56, 66, 0.65);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(46, 56, 66, 0.75);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(46, 56, 66, 0.8);
 		}
 
 		.spotlight:nth-child(4) {
@@ -2789,14 +2788,14 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			width: 60em;
+			width: 50em;
 			margin: 0 auto;
 		}
 
 			@media screen and (max-width: 1280px) {
 
 				.wrapper > .inner {
-					width: 90%;
+					width: 70%;
 				}
 
 			}
@@ -2981,7 +2980,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #efefef;
 		}
 
 		.wrapper.style3 {
@@ -4182,7 +4181,7 @@ input, select, textarea {
 	width: 50%;
 	border-right: 1px solid rgba(0, 0, 0, 0.2);
 	background-color: #FFF;
-	background-image: url("/images/waiting.png");
+	background-image: url("/images/image_project_book.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
