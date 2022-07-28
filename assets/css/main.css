@@ -2789,7 +2789,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			width: 50em;
+			width: 55em;
 			margin: 0 auto;
 		}
 
@@ -4479,26 +4479,3 @@ input, select, textarea {
 		}
 
 	}
-.card {
-	position: relative;
-	transition: transform 1s;
-	transform-style: preserve-3d;
-	cursor: pointer;
-}
-
-.front, .back {
-	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	backface-visibility: hidden;
-}
-
-.front {
-	border: 2px solid black;
-}
-
-.back {
-	border: 2px solid black;
-	transform: rotateY(180deg);
-}
