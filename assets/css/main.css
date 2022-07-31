@@ -164,6 +164,10 @@ em, i {
     margin: 0 0 2em 0;
 }
 
+#under_p2 {
+    margin: 0 0 1em 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #fff;
     font-weight: 800;
@@ -1780,6 +1784,10 @@ header.major {
     margin: 0 0 3.5em 0;
 }
 
+header.major.sub {
+    margin-top: 3.5em;
+}
+
 header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
     border-bottom: solid 2px #fff;
     display: inline-block;
@@ -2681,7 +2689,7 @@ button:disabled,
     order: 1;
     border-radius: 0;
     width: 50%;
-    padding:0 20px;
+    padding: 0 20px;
 }
 
 .spotlight .image img {
@@ -4135,7 +4143,8 @@ body.is-mobile.landing #footer {
 }
 
 #three .inner .pro_content {
-    width: 100%;
+    width: 750px;
+    margin: auto;
     height: fit-content;
 }
 
@@ -4143,9 +4152,9 @@ body.is-mobile.landing #footer {
     height: fit-content;
     margin-bottom: 30px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
-    cursor: pointer;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
     background-color: rgb(236, 236, 236);
 }
 
@@ -4153,12 +4162,13 @@ body.is-mobile.landing #footer {
 /*	border: #4E4852 1px solid;*/
 /*	transition: 0.2s;*/
 /*}*/
-#three .inner .pro_content .pro_box:active {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8) inset;
-}
+/*#three .inner .pro_content .pro_box:active {*/
+/*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8) inset;*/
+/*}*/
 
 .pro_img.imgA {
-    width: 50%;
+    width: 100%;
+    height: 380px;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #FFF;
     background-image: url("/images/heritageHome.png");
@@ -4169,7 +4179,8 @@ body.is-mobile.landing #footer {
 }
 
 .pro_img.img1 {
-    width: 50%;
+    width: 100%;
+    height: 380px;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #FFF;
     background-image: url("/images/id_doubleCheck.png");
@@ -4180,7 +4191,8 @@ body.is-mobile.landing #footer {
 }
 
 .pro_img.img2 {
-    width: 50%;
+    width: 100%;
+    height: 380px;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #FFF;
     background-image: url("/images/그림1.jpg");
@@ -4191,7 +4203,8 @@ body.is-mobile.landing #footer {
 }
 
 .pro_img.img3 {
-    width: 50%;
+    width: 100%;
+    height: 380px;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #FFF;
     background-image: url("/images/boardWeb1.png");
@@ -4202,7 +4215,8 @@ body.is-mobile.landing #footer {
 }
 
 .pro_img.img4 {
-    width: 50%;
+    width: 100%;
+    height: 380px;
     border-right: 1px solid rgba(0, 0, 0, 0.2);
     background-color: #FFF;
     background-image: url("/images/image_project_book.jpg");
@@ -4213,9 +4227,41 @@ body.is-mobile.landing #footer {
 }
 
 .pro_explain {
-    width: 40%;
     height: fit-content;
-    margin: 50px auto;
+    margin: 25px auto;
+}
+
+.explain_box {
+    width: 70%;
+    margin: auto;
+    display: none;
+}
+
+.btn_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_box .explain_btn_before {
+    background-color: gray;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn_box .explain_btn_before:hover {
+    background-color: #919191;
+}
+
+.btn_box .explain_btn_after {
+    display: none;
+    background-color: gray;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.btn_box .explain_btn_after:hover {
+    background-color: #c7c7c7;
 }
 
 .content_profile {
@@ -4413,10 +4459,10 @@ body.is-mobile.landing #footer {
     }
 
     #three .inner .pro_content .pro_box {
-        height: 820px;
-        margin-bottom: 30px;
+        height: fit-content;
+        margin-bottom: 50px;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
-        cursor: pointer;
+        cursor: none;
         border-radius: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -4425,7 +4471,7 @@ body.is-mobile.landing #footer {
 
     .pro_img.imgA {
         width: 100%;
-        height: 30%;
+        height: 300px;
         border-right: 1px solid rgba(0, 0, 0, 0.2);
         background-color: #FFF;
         background-image: url("/images/heritageHome.png");
@@ -4437,7 +4483,7 @@ body.is-mobile.landing #footer {
 
     .pro_img.img1 {
         width: 100%;
-        height: 40%;
+        height: 300px;
         border-right: 1px solid rgba(0, 0, 0, 0.2);
         background-color: #FFF;
         background-image: url("/images/id_doubleCheck.png");
@@ -4449,7 +4495,7 @@ body.is-mobile.landing #footer {
 
     .pro_img.img2 {
         width: 100%;
-        height: 40%;
+        height: 300px;
         border-right: 1px solid rgba(0, 0, 0, 0.2);
         background-color: #FFF;
         background-image: url("/images/그림1.jpg");
@@ -4461,7 +4507,7 @@ body.is-mobile.landing #footer {
 
     .pro_img.img3 {
         width: 100%;
-        height: 40%;
+        height: 300px;
         border-right: 1px solid rgba(0, 0, 0, 0.2);
         background-color: #FFF;
         background-image: url("/images/boardWeb1.png");
@@ -4473,7 +4519,7 @@ body.is-mobile.landing #footer {
 
     .pro_img.img4 {
         width: 100%;
-        height: 40%;
+        height: 300px;
         border-right: 1px solid rgba(0, 0, 0, 0.2);
         background-color: #FFF;
         background-image: url("/images/image_project_book.jpg");
@@ -4485,7 +4531,6 @@ body.is-mobile.landing #footer {
 
     .pro_explain {
         width: 100%;
-        margin: -50px 0;
         padding: 10px 10px;
     }
 
@@ -4569,7 +4614,7 @@ body.is-mobile.landing #footer {
     margin-top: 50px;
 }
 
-.card_title.main{
+.card_title.main {
     color: #000000;
     height: fit-content;
 }
@@ -4578,6 +4623,7 @@ body.is-mobile.landing #footer {
     display: block;
     padding: 0 30px;
 }
+
 .card_content img {
     width: 60px;
     height: 60px;
@@ -4588,7 +4634,8 @@ body.is-mobile.landing #footer {
     color: #6b6b6b;
     height: fit-content;
 }
-.sub_skill .back .card_content{
+
+.sub_skill .back .card_content {
     font-size: 12pt;
 }
 
