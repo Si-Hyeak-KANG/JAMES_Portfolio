@@ -2799,7 +2799,7 @@ button:disabled,
 /* Wrapper */
 
 .wrapper {
-    padding: 5em 0 16em 0;
+    padding: 8em 0 11em 0;
 }
 
 .wrapper > .inner {
@@ -4032,19 +4032,19 @@ body.is-mobile.landing #footer {
 }
 
 .info_block .fas {
-    font-size: 40px;
+    font-size: 26px;
     width: 80px;
     color: #000000;
 }
 
 .info_block .info_title {
-    font-size: 40px;
+    font-size: 26px;
     color: #000000;
     font-weight: 600;
 }
 
 .info_block .info_content {
-    font-size: 30px;
+    font-size: 26px;
     color: #4E4852;
     margin-left: auto;
 }
