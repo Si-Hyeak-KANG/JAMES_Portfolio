@@ -4682,3 +4682,23 @@ body.is-mobile.landing #footer {
     }
 }
 
+#slider {
+    overflow:hidden;
+    position:relative;
+    height:550px;
+}
+.image-box {
+    width:16000px; // 원본+클론의 총 합
+height:100%;
+    display:flex;
+    flex-wrap:nowrap;
+    animation: bannermove 28s linear infinite;
+}
+@keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
